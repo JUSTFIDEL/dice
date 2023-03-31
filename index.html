@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Dicee</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+	<head>
+		<meta charset="utf-8" />
+		<title>Dicee</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<div class="overlay"></div>
+		<div class="container">
+			<h2>Let's roll some dice !!!</h2>
 
-  </head>
-  <body>
+			<button class="hid-but1" onclick="clickMe()">Roll</button>
 
-    <div class="container">
-      <h1>Refresh Me</h1>
+			<h1></h1>
+			<div class="img-cont">
+				<div class="dice1">
+					<p>Player 1</p>
+					<img class="img1" src="images/dice6.png" />
+				</div>
+				<div class="versus">
+					<button class="versus1">vs</button>
+				</div>
+				<div class="dice2">
+					<p>Player 2</p>
+					<img class="img2" src="images/dice6.png" />
+				</div>
+			</div>
 
-      <div class="dice">
-        <p>Player 1</p>
-        <img class="img1" src="images/dice6.png">
-      </div>
+			<button class="hid-but2" onclick="clickMe()">Roll</button>
 
-      <div class="dice">
-        <p>Player 2</p>
-        <img class="img2" src="images/dice6.png">
-      </div>
+			<footer>
+				<div class="copy-right1">
+					🎲 &copy; JustFidel -
+					<script>
+						document.write(new Date().getFullYear())
+					</script>
+				</div>
+			</footer>
+		</div>
 
-    </div>
-
-    <script type="text/javascript" src="index.js">
-
-    </script>
-  </body>
-
-  <footer>
-    www 🎲 justfidel.github.io/profile 🎲 com
-  </footer>
+		<script type="text/javascript" src="index.js"></script>
+	</body>
 </html>
