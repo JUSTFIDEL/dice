@@ -7,13 +7,12 @@
 }
 
 body {
-	background-image: url(./images/casino.jpg);
+	background-image: url(./images/casino.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-	overflow: hidden;
+	background-position: center center;
+	/* overflow: hidden; */
 	min-height: 100vh;
-	margin: 0 auto;
 	position: relative;
 }
 
@@ -163,9 +162,9 @@ footer {
 	display: hidden;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 425px) {
 	body {
-		width: 100%;
+		background-image: url(./images/casino-m.png);
 	}
 
 	.container {

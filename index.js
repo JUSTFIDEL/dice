@@ -36,7 +36,7 @@ function clickMe() {
 
 		setTimeout(() => {
 			location.reload()
-		}, 3000)
+		}, 2000)
 	}, 2000)
 
 	return false
